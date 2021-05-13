@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Ingrediant App 4 Ashley</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="Recipe.css">
+    <script src="https://kit.fontawesome.com/7484f7f6da.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <h1 class="title"><i class="fa fa-heart" aria-hidden="true"></i> Ashley's Food App! <i class="fa fa-heart" aria-hidden="true"></i></h1>
+                <img src="j-oliver_t-swift.jpg" alt="bake-it-off">
+                <div class="show-credit">
+                    <h4>"Bake It Off! Bake it Off!"</h4>
+                    <p>Jamie Oliver Special<br>
+                    <cite>With Guest: Taylor Swift</cite>
+                </p>
+                </div>
+                <br>
+                <h2 class="title"><i class="fa fa-cutlery" aria-hidden="true"></i> What's Your Key Ingredient? <i class="fa fa-cutlery" aria-hidden="true"></i></h2>
+                <div class="meal-search-box">
+                    <input type="text" class="search-control" placeholder="Enter an Ingrediant Ashley" id="search-input">
+                    <button type="submit" class="search-btn" id="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>   
+                </div>
+                <blockquote>Real food doesn't have ingredients, real food is ingredients.<br>
+                    <cite>- Jamie Oliver</cite>
+                </blockquote>
+            </div>
+
+            <div class="meal-result">
+                <h2 class="title">Your Search Results:</h2>
+                <div id="meal">
+                </div>
+            </div>
+
+
+            <div class="meal-details">
+                <!-- recipe close btn -->
+                <button type="button" class="btn recipe-close-btn"
+                id="recipe-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                
+                <div class="meal-details-content">
+                <!-- should pop up the meal details -->    
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="recipe.js"> </script>
+</body>
+</html>
